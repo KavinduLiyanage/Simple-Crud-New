@@ -7,7 +7,7 @@
     "Back-install": "cd Backend && npm i",
     "Front-install": "cd Frontend/crud && npm i",
     "start": "cd Backend && node server.js",
-    "client-start": "cd Frontend/crud react-scripts start",
+    "client-start": "cd Frontend/crud && npm start",
     "server": "cd Backend && nodemon server",
     "build": "react-scripts build",
     "test": "react-scripts test",
