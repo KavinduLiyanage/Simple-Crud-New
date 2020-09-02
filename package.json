@@ -1,0 +1,32 @@
+{
+  "name": "Simple-Crud-New",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Back-install": "cd Backend && npm i",
+    "Front-install": "cd Frontend/crud && npm i",
+    "start": "cd Backend && node server.js",
+    "client-start": "cd Frontend/crud react-scripts start",
+    "server": "cd Backend && nodemon server",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run server\" \"npm run client-start\"",
+    "dev-i": "concurrently \"npm run Back-install\" \"npm run Front-install\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KavinduLiyanage/Simple-Crud-New.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KavinduLiyanage/Simple-Crud-New/issues"
+  },
+  "homepage": "https://github.com/KavinduLiyanage/Simple-Crud-New#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
