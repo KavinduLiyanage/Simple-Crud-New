@@ -3,7 +3,7 @@
   
 In the project directory, you can run in the terminal:
   
-### `npm intall`  
+### `npm install`  
   
 For Install initial Dependencies<br />
 
